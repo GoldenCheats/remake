@@ -1,0 +1,319 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discord-popup.lua"))()
+local G2L = {};
+
+-- StarterGui.hardcoreanalsex
+G2L["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"))
+G2L["1"]["Name"] = [[hardcoreanalsex]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.hardcoreanalsex.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 165, 136);
+G2L["2"]["Size"] = UDim2.new(0, 310, 0, 151);
+G2L["2"]["Position"] = UDim2.new(0.29852, 0, 0.39589, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.title
+G2L["3"] = Instance.new("TextLabel", G2L["2"]);
+G2L["3"]["TextWrapped"] = true;
+G2L["3"]["BorderSizePixel"] = 0;
+G2L["3"]["TextScaled"] = true;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 113, 102);
+G2L["3"]["TextSize"] = 14;
+G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Size"] = UDim2.new(0, 310, 0, 50);
+G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Text"] = [[obby ruiner modified]];
+G2L["3"]["Name"] = [[title]];
+
+-- StarterGui.hardcoreanalsex.Frame.title.UICorner
+G2L["4"] = Instance.new("UICorner", G2L["3"]);
+G2L["4"]["CornerRadius"] = UDim.new(0, 4);
+
+-- StarterGui.hardcoreanalsex.Frame.fire
+G2L["5"] = Instance.new("TextButton", G2L["2"]);
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["TextSize"] = 34;
+G2L["5"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(254, 89, 145);
+G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["5"]["Size"] = UDim2.new(0, 127, 0, 37);
+G2L["5"]["Name"] = [[fire]];
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["Text"] = [[fire!]];
+G2L["5"]["Position"] = UDim2.new(0.06129, 0, 0.5298, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.fire.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+G2L["6"]["CornerRadius"] = UDim.new(0, 2);
+
+-- StarterGui.hardcoreanalsex.Frame.UICorner
+G2L["7"] = Instance.new("UICorner", G2L["2"]);
+G2L["7"]["CornerRadius"] = UDim.new(0, 4);
+
+-- StarterGui.hardcoreanalsex.Frame.loopfire
+G2L["8"] = Instance.new("TextButton", G2L["2"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["TextSize"] = 34;
+G2L["8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(254, 89, 145);
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["8"]["Size"] = UDim2.new(0, 127, 0, 37);
+G2L["8"]["Name"] = [[loopfire]];
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Text"] = [[loop fire!]];
+G2L["8"]["Position"] = UDim2.new(0.53226, 0, 0.5298, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.loopfire.UICorner
+G2L["9"] = Instance.new("UICorner", G2L["8"]);
+G2L["9"]["CornerRadius"] = UDim.new(0, 2);
+
+-- StarterGui.hardcoreanalsex.Frame.instructions
+G2L["a"] = Instance.new("TextLabel", G2L["2"]);
+G2L["a"]["TextWrapped"] = true;
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["TextScaled"] = true;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 180, 41);
+G2L["a"]["TextSize"] = 14;
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Size"] = UDim2.new(0, 310, 0, 24);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[double click on an obby stage to select it.]];
+G2L["a"]["Name"] = [[instructions]];
+G2L["a"]["Position"] = UDim2.new(0, 0, 0.33113, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.discord
+G2L["b"] = Instance.new("TextLabel", G2L["2"]);
+G2L["b"]["TextWrapped"] = true;
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["TextScaled"] = true;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 180, 42);
+G2L["b"]["TextSize"] = 14;
+G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Size"] = UDim2.new(0, 211, 0, 28);
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Text"] = [[developed by hellohellohell012321]];
+G2L["b"]["Name"] = [[discord]];
+G2L["b"]["Position"] = UDim2.new(0, 0, 0.81457, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.discord.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["b"]);
+
+-- StarterGui.hardcoreanalsex.Frame.copylink
+G2L["d"] = Instance.new("TextButton", G2L["2"]);
+G2L["d"]["TextWrapped"] = true;
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 17;
+G2L["d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(115, 124, 248);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]],
+Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d"]["Size"] = UDim2.new(0, 99, 0, 28);
+G2L["d"]["Name"] = [[copylink]];
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[copy discord]];
+G2L["d"]["Position"] = UDim2.new(0.68065, 0, 0.81457, 0);
+
+-- StarterGui.hardcoreanalsex.Frame.copylink.UICorner
+G2L["e"] = Instance.new("UICorner", G2L["d"]);
+G2L["e"]["CornerRadius"] = UDim.new(0, 2);
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local UserInputService = game:GetService("UserInputService")
+local LocalPlayer = Players.LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+
+local selectedModel = nil
+local highlightBox = nil
+local loopFiring = false -- Variable to control the loop
+local loopConnection = nil
+
+-- define gui stuff
+local screenGui = G2L["1"]
+local frame = G2L["2"]
+local fireButton = G2L["5"]
+local loopFireButton = G2L["8"]
+
+-- dragging
+
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+   local delta = input.Position - dragStart
+   frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale,
+startPos.Y.Offset + delta.Y)
+end
+
+frame.InputBegan:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseButton1 then
+       dragging = true
+       dragStart = input.Position
+       startPos = frame.Position
+
+     input.Changed:Connect(function()
+        if input.UserInputState == Enum.UserInputState.End then
+            dragging = false
+        end
+     end)
+  end
+end)
+frame.InputChanged:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType ==
+Enum.UserInputType.Touch then
+       dragInput = input
+   end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+  if dragging and input == dragInput then
+      update(input)
+  end
+end)
+
+
+-- Function to highlight the selected model
+local function highlightModel(model)
+   if highlightBox then
+       highlightBox:Destroy()
+   end
+
+  highlightBox = Instance.new("SelectionBox")
+  highlightBox.Adornee = model
+  highlightBox.Parent = model
+  highlightBox.LineThickness = 0.05
+  highlightBox.Color3 = Color3.fromRGB(0, 255, 0)
+end
+
+-- Variables to track double-click timing
+-- Fire Touch Interest for Specific Folder
+local function fireTouchInterest(target, part)
+    -- Fire both touch events instantly
+    firetouchinterest(target, part, 0)
+    firetouchinterest(target, part, 1)
+end
+
+-- Function to highlight the selected model
+local function highlightModel(model)
+    if highlightBox then
+        highlightBox:Destroy()
+    end
+
+    highlightBox = Instance.new("SelectionBox")
+    highlightBox.Adornee = model
+    highlightBox.Parent = model
+    highlightBox.LineThickness = 0.05
+    highlightBox.Color3 = Color3.fromRGB(0, 255, 0)
+end
+
+-- Fire Touch Interest for Specific Folder
+local function fireTouchInterest(target, part)
+    -- Fire both touch events without delay
+    firetouchinterest(target, part, 0)
+    firetouchinterest(target, part, 1)
+end
+
+-- Function to highlight the selected model
+local function highlightModel(model)
+    if highlightBox then
+        highlightBox:Destroy()
+    end
+
+    highlightBox = Instance.new("SelectionBox")
+    highlightBox.Adornee = model
+    highlightBox.Parent = model
+    highlightBox.LineThickness = 0.05
+    highlightBox.Color3 = Color3.fromRGB(0, 255, 0)
+end
+
+-- Variables to track double-click timing
+local lastClickTime = 0
+local doubleClickTime = 0.5 -- Time in seconds to consider as double-click
+local selectedModel = nil -- Track the selected model (or folder)
+local stairsFolder = nil  -- Variable to hold the path to the stairs/folder
+
+-- Function to handle double-click on a model
+local function onModelClick()
+    local currentTime = tick()
+    if (currentTime - lastClickTime) <= doubleClickTime then
+        local target = Mouse.Target -- Get the object under the mouse
+        if target and target.Parent:IsA("Model") then
+            selectedModel = target.Parent
+            highlightModel(selectedModel) -- Highlight the selected model
+            
+            -- Automatically set the stairsFolder to the selected model
+            stairsFolder = selectedModel
+            
+            -- Print confirmation for debugging
+            print("Selected stairs folder: " .. tostring(stairsFolder))
+        end
+    end
+    lastClickTime = currentTime -- Update the last click time
+end
+
+-- Function to fire touch events for all parts in the selected folder (similar to your original script)
+local function fireAllTouches()
+    if stairsFolder then
+        local Root = game.Players.LocalPlayer.Character.HumanoidRootPart
+        local modelParts = stairsFolder:GetDescendants()
+
+        -- Iterate through all parts and fire touch events
+        for _, part in pairs(modelParts) do
+            if part:IsA("BasePart") then
+                -- Fire the touch instantly on all parts in the folder
+                pcall(function()
+                    fireTouchInterest(Root, part)
+                end)
+            end
+        end
+    else
+        print("No folder selected!") -- Debugging information
+    end
+end
+
+-- Fire button functionality
+fireButton.MouseButton1Click:Connect(function()
+    fireAllTouches() -- Fire touch for all parts in the selected folder
+end)
+
+-- Loop fire functionality
+loopFireButton.MouseButton1Click:Connect(function()
+    if loopFiring then
+        -- Stop the loop
+        loopFiring = false
+        if loopConnection then
+            loopConnection:Disconnect() -- Stop the loop
+        end
+        loopFireButton.Text = "loop fire"
+    else
+        -- Start the loop
+        loopFiring = true
+        loopFireButton.Text = "stop loop"
+        loopConnection = game:GetService("RunService").Heartbeat:Connect(function()
+            fireAllTouches() -- Keep firing touch events in a loop
+            wait(1) -- Add wait between loop iterations
+        end)
+    end
+end)
+
+-- Connect the mouse click to selecting a model
+Mouse.Button1Down:Connect(onModelClick)
+
+
+G2L["d"].MouseButton1Click:Connect(function()
+
+setclipboard("https://discord.gg/MP9nZgEeQD")
+end)
+
+return G2L["1"], require;
