@@ -1,3 +1,12 @@
+-----known bugs:
+----- loop fire broken
+------ breaks if spammed to much
+------ a bit of a delay
+
+----- will be all fixed in v2 with improvments!
+
+
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GoldenCheats/remake/refs/heads/main/ui%20lib%20back%20up.txt"))()
 local G2L = {};
 
